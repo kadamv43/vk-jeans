@@ -1,0 +1,51 @@
+.tending{
+    margin-top: 2%;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.card_image{
+    height: 182px;
+    width: 100% !important;
+    margin:auto;
+}
+
+mat-card{
+    width: 145px !important;
+}
+
+mat-card-footer{
+    padding-left: 10px;
+}
+
+.product_name{
+    font-size: 16px;
+    color: blue;
+}
+
+.price{
+    color: black;
+}
+
+.old_price{
+    color: gray;
+}
+
+.offer{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    height: 450px;
+}
+
+.offer img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:300px) and (max-width: 576px){
+    .offer{
+        height: 200px;
+    }
+}
